@@ -13,14 +13,4 @@ function findNextPrime(n) {
     function isPrime(num) {
         if (num <= 1) return false;
         for (let i = 2; i <= Math.sqrt(num); i++) {
-            if (num % i === 0) return false;
-        }
-        return true;
-    }
-
-    let nextNum = Math.floor(n) + 1;
-    while (!isPrime(nextNum)) {
-        nextNum++;
-    }
-    return nextNum;
-}
+            if (num % i === 0) return f
