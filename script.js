@@ -9,8 +9,8 @@ for (let i = 1; i <= 100; i++) {
 
 // Part 2: Prime Numbers 
 
-function findNextPrime(n) {
-    function isPrime(num) {
+function findNextPrime(n) 
+    function isPrime
         if (num <= 1) return false;
         for (let i = 2; i <= Math.sqrt(num); i++) {
             if (num % i === 0) return f
